@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Custom API routes - Silex based </title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      .brand-icon {
+        font-size: 25px;
+        color:  #fff;
+        margin-right: 25px;
+      }
+      .navbar-brand {
+        height:  auto;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-king brand-icon"></span> <span>Custom API routes - Silex based</span></a>
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="alert alert-info">
+            <p><strong>Just a simple app shell to be used for testing.</strong></p>
+            <p>You can define any route you want in src/routes.php and then use it for testing. Have fun!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="alert alert-warning">
+            <p><strong>Available routes:</strong></p>
+            <p>
+              <ul class="list-group">
+                <li class="list-group-item">GET <strong>/</strong> - home route</li>
+                <li class="list-group-item">GET <strong>/countries-data</strong> - route to get countries data</li>
+                <li class="list-group-item">GET <strong>/get-csrf-token</strong> - generate and return valid CSRF token</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- if ever needed :) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+  </body>
+</html>
