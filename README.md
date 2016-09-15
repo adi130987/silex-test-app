@@ -42,7 +42,7 @@ with this content:
 
 ```
 
-Make sure you have rewrite module enabled (is not run `a2enmod rewrite`)
+Make sure you have rewrite module enabled (if not run `a2enmod rewrite`)
 
 ```bash
 $ cd /etc/apache2/sites-available
